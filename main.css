@@ -5,13 +5,13 @@
 }
 
 header{
-    background-color: #1C1C3C;
-    color: #FFD700;
+    background-color: #5a525a;
+    color: #fff5ff;
     padding: 18px 0px;
 }
 
 section{
-    color: #1C1C3C;
+    color: #5a525a;
 }
 
 h1,h2,h3,
@@ -50,6 +50,10 @@ section h2{
     margin-bottom: 16px;
 }
 
+#who-we-are{
+    border-bottom: 1px solid #5a525a;
+}
+
 #who-we-are .container .conteudos{
     display: flex;
     align-items: flex-start;
@@ -57,6 +61,11 @@ section h2{
 
 #who-we-are h2{
     margin-top: 40px;
+}
+
+#instruments{
+    background-color: #fff5ff;
+    border-bottom: 1px solid #5a525a;
 }
 
 #instruments .container .conteudos{
@@ -98,7 +107,7 @@ header ul li{
 
 header ul li a{
     text-decoration: none;
-    color: #FFD700;
+    color: #fff5ff;
 }
 
 section img{
@@ -124,25 +133,25 @@ button{
 
 #contact .form-content input{
     padding: 20px;
-    background-color: #1C1C3C;
-    color: #FFD700;
+    background-color: #fff5ff;
+    color: #5a525a;
 }
 
 #contact .form-content textarea{
     padding: 60px 20px;
-    background-color: #1C1C3C;
-    color: #FFD700;
+    background-color: #fff5ff;
+    color: #5a525a;
 }
 
 #contact .form-content input::-webkit-input-placeholder,
 #contact .form-content textarea::-webkit-input-placeholder{
-    background-color: #1C1C3C;
-    color:#fde246be;
+    background-color: #fff5ff;
+    color:#5a525a;
 }
 
 #contact .form-content input:-webkit-autofill{
-    background-color: #1C1C3C;
-    color: #FFD700;
+    background-color: #fff5ff;
+    color: #5a525a;
 }
 
 #contact h3{
@@ -152,15 +161,16 @@ button{
 #contact .form-content button{
     padding: 10px 120px;
     margin-top: 5px;
-    color: #1C1C3C;
-    border-color: #1C1C3C;
+    color: #5a525a;
+    border-color: #5a525a;
     font-size: 20px;
     cursor: pointer;
 }
 
 #contact .form-content button:hover{
-    background-color: #1C1C3C;
-    color: #FFD700;
+    background-color: #5a525a;
+    color: #fff5ff;
+    border-color: transparent;
 }
 
 #contact .form-content input, textarea, label,button{
@@ -175,7 +185,7 @@ button{
 
 #contact .form-content input:focus,
 textarea:focus{
-    outline-color: white;
+    outline-color: #5a525a;
 }
 
 #contact .form-content .teclado,
@@ -183,7 +193,7 @@ textarea:focus{
 #contact .form-content .contrabaixo,
 #contact .form-content .guitarra{
     margin-right: 5px;
-    accent-color: #1C1C3C;
+    accent-color: #5a525a;
     cursor: pointer;
 }
 
@@ -209,19 +219,23 @@ textarea:focus{
 }
 
 footer{
-    background-color: #1C1C3C;
-    color: #FFD700;
+    background-color: #5a525a;
+    color: #fff5ff;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 #who-we-are{
-    background-color: #FFD700;
+    background-color: #fff5ff;
     padding-bottom: 60px;
 }
 
 #contact{
-    background-color: #FFD700;
+    background-color: #fff5ff;
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+textarea{
+    border: 2px solid #5a525a;
 }
